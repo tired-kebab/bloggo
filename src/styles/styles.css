@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+a {
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:active {
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+a:visited {
+  color: white;
+}
