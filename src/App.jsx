@@ -8,6 +8,7 @@ import { useState } from "react";
 function App() {
   const initialPosts = JSON.parse(localStorage.getItem("posts")) || [];
   const [posts, setPosts] = useState(initialPosts);
+  console.log("inside App", posts);
 
   return (
     <Box sx={containerStyle}>
